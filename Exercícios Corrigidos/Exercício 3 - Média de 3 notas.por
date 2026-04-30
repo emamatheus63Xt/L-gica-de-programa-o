@@ -6,7 +6,7 @@ programa {
    soma = 0
 
    para(inteiro i = 1; i <= 3; i++) {
-    escreva("Digite a nota: ", i, ": ")
+    escreva("Digite a nota ", i, ": ")
     leia(nota)
 
     soma = nota + soma
